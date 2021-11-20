@@ -1,0 +1,418 @@
+@media screen  and (min-width: 0px)  and ( max-width: 480px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width:100vw;
+    }
+    #main-container{
+        width: 100vw;
+        height: 100vh;
+        
+        }
+    #slider{
+      background-image: url(./images/Osamede_WebsiteElement_Mobile.png);
+  }
+   ul li{
+    display: none;
+    }
+  nav{
+ display: none;
+  }
+.sliders{
+display: none;
+}
+.navigation-manual{
+  display: none;
+}
+.manual-btn {
+  display: none;
+}
+.navigation-auto {
+  display: none;
+}
+.inline{
+ display: none;
+}
+.bottom{
+  height: 1px;
+  width:100vw;
+  background-color: black;
+  margin-top: 3em;
+}
+.bottom2{
+  height: 1px;
+  width:100vw;
+  background-color: #fff;
+  margin-top: 15em;
+}
+.bottom3{
+  height: 1px;
+  width:100vw;
+  background-color: black;
+  margin-top: 1em;
+  display: none;
+}
+.oba{
+  display: none;
+}
+.queen{
+  display: none;
+}
+h1{
+  font-size: 20px;
+  font-family: 'nunito';
+  font-weight: 400;
+  display: inline;
+  position: relative;
+  top:4em;
+ left:9em;
+  text-align: center;
+  z-index: 3;
+}
+.phonetag{
+  display: inline-block;
+  margin-top: -3em;
+}
+.logo{
+  width: 250px;
+ right: 20em;
+  top: 3em;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
+}
+.moveosamade{
+  margin-left: -90px;
+}
+.paraPhone{
+  text-align: center;
+    margin-top: 6em;
+    margin-left: 2.5em;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'nunito';
+    font-weight: 200;
+    display: inline-block;
+}
+.ptag{
+  display: none;
+}
+.para{
+  
+  display: none;
+}
+.paraIpad{
+  display: none;
+}
+.names{
+  display:none;
+}
+
+.sponsors{
+position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+ margin-left: 7em;
+ top: -5em;
+}
+.imgs1{
+  width: 120px;
+  height: 30px;
+  margin-left:5em;
+  margin-top:1em;
+}
+.line{
+ display: none;
+}
+.imgs2{
+  width: 100px;
+  height: 50px;
+  bottom: 3em;
+  position: relative;
+  left: 6em;
+ 
+}
+.imgs3{
+  width: 70px;
+  height: 35px;
+ margin-top: 4em;
+  margin-left:1em;
+}
+h3{
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'nunito';
+  font-weight: 200;
+  margin-right: 20px;
+  margin-left:8em;
+  margin-top: 5em;
+}
+.bronse{
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'nunito';
+  font-weight: 200;
+  margin-right: 20px;
+  margin-left:9em;
+  margin-top: 1em;
+}
+.lilianPhone{
+  position: relative;
+  top: -19em;
+  left: -5em;
+  font-family: 'cinzel';
+}
+.tundePhone{
+  position: relative;
+  top: 25em;
+  left: 1em;
+  font-family: 'cinzel';
+  display: block;
+}
+.ajayiPhone{
+  position: relative;
+  top: 23em;
+  left: -6.5em;
+  font-family: 'cinzel';
+}
+.h1olubi{
+  position: relative;
+  top: -22em;
+  left: 4em;
+  font-family: 'nunito';
+   font-size: 20px;
+   font-weight: 400;
+  }
+  .movepara2Phone{
+    margin-top: -25em;
+    margin-left: 12em;
+  }
+.para2Phone{
+  position: relative;
+  text-align: center;
+  margin-left:-5em;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'nunito';
+  font-weight: 200;
+  display: inline-block;
+  top: -19em;
+  z-index: 1;
+  }
+  .paraphonetag{
+    display: inline-block;
+    margin-top: 25em;
+  }
+  .paranewPhone{
+    text-align: center;
+    margin-left: -18em;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'nunito';
+    font-weight: 200;
+    display: inline-block;
+     top:18em;
+    position: relative;
+    z-index: 2;
+  }
+  .paranew{
+    display: none;
+  }
+  .paranewIpad{
+    display: none;
+    }
+        .para2{
+          display: none;
+              }
+              .para2Ipad{
+          display: none;
+              }
+  .olubi{
+ width: 150px;
+ height: 140px;
+top: -25em;
+left: 2.5em;
+
+   
+  }
+  .olubi2{
+    display: none;
+  }
+  .names2{
+    display: none;
+  }
+  .paraolaipad{
+    display: none;
+}
+
+.olatunde{
+  
+margin-left: 11em;
+height: 140px;
+width: 150px;
+position: relative;
+z-index: 8;
+top: 30em;
+
+
+
+
+}
+.moveparaola{
+  margin-top: 10em;
+  margin-left: 22em;
+  
+}
+.paraola2{
+  text-align: center;
+    margin-left: -15em;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'nunito';
+    font-weight: 200;
+    display: inline-block;
+     top:7em;
+    position: relative;
+    z-index: 2;
+
+
+}
+.paranewola2{
+  text-align: center;
+  margin-left: -18em;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'nunito';
+  font-weight: 200;
+  display: inline-block;
+   top:34em;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.paraolaipad{
+  display: none;
+}
+.paraola{
+  display: none;
+}
+.Portraitola{
+  display: none;
+}
+.cast{
+  display: none;
+} .ipadtag{
+  display: none;
+}
+.paraajayipadnew{
+  display: none;
+}
+.paraajayiIpad{
+  display: none;
+}
+
+.ajayi{
+  display: inline-block;
+  margin-top: 10em;
+}
+
+.ptagphone{
+  display: inline-block;
+}
+.ajayicrew{
+position: relative;
+z-index: 10;
+top: 12em;
+margin-left: 2em;
+}
+.ajayiPics{
+  position: relative;
+z-index: 13;
+top: 27em;
+margin-left: 4em;
+height: 140px;
+width: 150px;
+
+
+}
+.paraajayi{
+  text-align: center;
+    margin-left: 2em;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'nunito';
+    font-weight: 200;
+    display: inline-block;
+     top:15.5em;
+    position: relative;
+    z-index: 2;
+}
+.paranewajayi{
+  text-align: center;
+  margin-left: 1.5em;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'nunito';
+  font-weight: 200;
+  display: inline-block;
+   top:17em;
+  position: relative;
+  z-index: 2;
+}
+.moveajayi{
+ margin-top: 13em;
+ margin-left: 3em;
+}
+.moveajayigeneral{
+  margin-top: 17em;
+}
+.movegold{
+  margin-top: -2em;
+}
+.gold2{
+  position: relative;
+z-index: 13;
+top: 24em;
+margin-left: 8em;
+height: 150px;
+width: 250px;
+}
+.paragold{
+  text-align: center;
+  margin-left: 5em;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'nunito';
+  font-weight: 200;
+  display: inline-block;
+   top: 21em;
+  position: relative;
+  z-index: 2;
+}
+.ticketing{
+ 
+display: none;
+}
+
+.getTickets{
+  position: relative;
+z-index: 10;
+top: 24em;
+margin-left: 1em;
+font-family: 'cinzel';
+}
+.bigdiv2{
+  width: 350px;
+            height:500px;
+            border: 2px solid black;
+            margin-top:32em ;
+            margin-left: 5em;
+}
+}

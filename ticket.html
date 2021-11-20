@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <body>
+        <nav class="navbar2">
+            <ul>
+            <li><a href="index.html" onclick="slideIn('home');" class="cool-link">HOME </a></li>
+            <li><a href="thestageplay.html" onclick="slideIn('stageplay');" class="cool-link">THE STAGE PLAY</a></li>
+            <li><a href="lilian.html" onclick="slideIn('parent');" class="cool-link">ABOUT</a></li>
+            <li onclick="slideIn('ticket');"><a href="ticket.html" class="cool-link">TICKET</a></li>
+             </ul>
+        </nav>
+    
+    
+        <div class="names2">
+            <ul class="olubiul">
+            <li class="cast">GET TICKETS</li> 
+            <li class="cast">CAST</li>
+             </ul>
+           
+            <div class="divolubi5"></div>
+        </div>
+    
+        <section id="ticket">
+            <div class="ticketing">
+           
+        
+        <div class="bigdiv">
+            <div class="mylogo">
+           <img class="logo2" src="./images/Osamede_Logo.png" alt="" width="200px">
+           <h3 class="regular">
+               REGULAR <br>TICKET
+            </h3>
+        </div>
+         <div class="divdate">
+            <div class="inputdate"> 
+               <select name="format" id="format">
+                    <option selected="" disabled="">DATE</option>
+                    <option value="date">Dec. 25th</option>
+                    <option value="date">Dec. 26th</option>
+                    <option value="date">Dec. 27th</option>
+             </select>
+                </div>
+                  <div class="inputtime"> 
+            <select name="format" id="format">
+                <option selected="" disabled="">TIME</option>
+                <option value="time">5pm</option>
+                <option value="time">7pm</option>
+        </select>
+            </div>
+        </div>
+       
+        <div class="move">
+         <div class="inputdiv"> 
+        <input class="inputname" type="text" placeholder="NAME">
+        </div>
+        <div class="inputdiv2"> 
+            <input class="inputemail" type="email" placeholder="EMAIL">
+            </div>
+           
+                    <div class="inputdiv3"> 
+                        <input class="inputemail" type="text" placeholder="PHONE NO:">
+                        <button>
+                            BUY
+                        </button>
+                       </div>
+                    </div>
+        </div>
+                </div>
+                
+                <div class="royals">
+                    <img class="oba" src="./images/Oba_Benin.png" alt="">
+                </div>
+                    <div class="bottom"></div>
+        
+        <script src="./script.js">
+            let ticket = document.getElementById('ticket');
+            function slideIn(){
+                ticket.style.transition =  "left 0.5s ease-in 0s"
+                ticket.style.right = "0vh"
+        
+            }
+        
+            
+            </script>
+        </section>
+    
+       
+    
+    </body>
+</body>
+</html>

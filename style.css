@@ -1,0 +1,676 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}
+#main-container{
+max-width: 100vw;
+display: flex;
+flex-direction: row;
+max-height:100vh ;
+}
+
+#slider{
+    width: 100%;
+    height: 100%;
+   }
+.closebtn{
+    display: none;
+}
+.navbar{
+
+   width:100%;
+   height: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+position: fixed;
+top: 12px;  
+margin-left: 0;
+margin-right: 0;
+font-size: calc(10px + 1vw);
+font-family: 'nunito';
+
+
+}
+.navbar2{
+
+    width:100%;
+    height: 10%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+ position: fixed;
+ top: 12px;  
+ margin-left: 0;
+ margin-right: 0;
+ font-size: calc(10px + 1vw);
+ font-family: 'nunito';
+ border-bottom: 4px solid black;
+ padding-top: 10px;
+ 
+ 
+ }
+.navbar ul {
+  
+padding: 0;
+   padding: 0;
+}
+ ul li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: calc(25px +2vw );
+    font-weight: 400;
+    font-family: 'nunito';
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1rem ;
+   }
+.cool-link:before{
+    content: '';
+    display: block;
+    width: 0;
+    border-top: 3px solid black;
+    transition: width .3s;
+    background-color: #000;
+  }
+
+.cool-link:hover::before{
+   width: 100%;
+   transition: width .3s;
+  }
+
+
+.sliders img{
+height: 100%;
+width: 100%; 
+
+}
+
+.sliders{
+    width: 500%;
+    height: 100%;
+    display: flex ;
+}
+.sliders input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+  
+    height: auto;
+}
+/* Manual navigation*/
+.navigation-manual{
+position: absolute;
+width: 1000px;
+margin-top: -50px;
+justify-content: center;
+display: flex;
+margin-left: 20em;
+}
+.manual-btn{
+    border: 1px solid #fff;
+    padding: 5;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height: 15px;
+    width: 15px;
+}
+.manual-btn:not(:last-child){
+ margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #fff  ;
+} 
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+    }
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+    
+}
+/* Automatic navigation*/
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+     margin-left: 20em;
+    }.navigation-auto div{
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+  height: 15px;
+  width: 15px;
+
+}
+.navigation-auto div:not(:last-child){
+margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #fff;
+}
+
+/*The Stage Play*/
+
+
+#play{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inline{
+    width:105em;
+    height: 4px;
+    background-color: black;
+    margin-top:-5em;
+   
+    
+}
+.logo{
+ width: 400px;
+ display: flex;
+ flex-direction: row;
+justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+    
+
+}
+.ptag{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.para{
+    text-align: center;
+    margin-top: 2em;
+    font-size: calc(16px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+   
+}
+.paraPhone{
+    display: none;
+}
+.paraIpad{
+    display: none;
+}
+.paranew{
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-left: 20em;
+}
+.para2{
+    text-align: left;
+    margin-top:-9em ;
+    font-size: calc(18px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-left: 40em;
+}
+
+.paraphonetag{
+    display: none;
+}
+.olatundePhone{
+    display: none;
+}
+.oduwolePhone{
+    display: none;
+}
+.paranewIpad{
+    display: none;
+}.Portraitola{
+    display: none;
+}
+.paraolaphone{
+    display: none;
+  }
+  .paraolaipad{
+      display: none;
+  }
+  .paranewolaphone{
+      display: none;
+  }
+  .ipadtag{
+      display: none;
+  }
+  .paranewolaipad{
+    display: none;
+}
+.para2Phone{
+display: none;
+}
+.para2Ipad{
+    display: none;
+    }
+.paranewPhone{
+display: none;
+    }
+    .paraajayiphonenew{
+        display: none;
+    }
+    .paranewIpad{
+display: none;
+    }
+    .ptagphone{
+        display: none;
+    }
+.imgs1{
+    width: 170px;
+    height: 60px;
+   
+}
+.imgs2{
+    width: 170px;
+    margin-top: -25px;
+   
+}
+.imgs3{
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     
+    
+}
+h3{
+    text-align: right;
+    font-size: calc(18px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+.line{
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.oba{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+
+}
+.royals{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    position: relative;
+}
+.bottom{
+    height: 101px;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10em;
+    
+ 
+   
+}
+
+
+       
+
+
+        /*Ticket*/
+
+     #ticket{
+            width: 100vw;
+
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+           }    
+    .cast{
+            font-size: 30px;
+            font-family: 'cinzel';
+            font-family: 400;
+            }
+
+            .inline2{
+                width:105em;
+                height: 4px;
+                background-color: black;
+                margin-top:5em;
+               
+                
+            }
+    .ticketing{
+            width: 100vw;
+              height: 100vh;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-left: auto;
+              margin-right: auto;
+          
+               }
+        
+    .bigdiv{
+            width: 550px;
+            height: 350px;
+            border: 2px solid black;
+            margin-top: -30em;
+     padding: 30px;
+       margin-left:auto ;
+    margin-right: auto;
+
+         
+  
+
+        }
+  
+       .date{
+             border-bottom: 2px solid black;
+             width: 100px;
+             font-size: 20px;
+             font-family: 'nunito';
+        }
+ .inputname{
+           height: 40px;
+            border: none;
+            outline: none;
+            font-size: calc(12px +2vw);
+            padding-right:10px ;
+            font-family: "nunito";
+            color: black;
+
+        }
+        
+        .inputdiv{
+            width: 460px;
+     border-bottom: #000 2px solid;
+    padding: 5px;
+   margin-left: 40px;
+   margin-top: 60px;
+         }
+    
+         .inputdiv2{
+     width: 460px;
+     border-bottom: #000 2px solid;
+   padding: 5px;
+    margin-left: 40px;
+   margin-top: 10px;
+  
+        }
+        .divolubi5{
+            width: 8px;
+            height: 8px;
+            border-radius: 5px;
+            background-color:black ;
+             position: relative;
+            z-index: 1;
+            margin:0 70px;
+            left: -9.5em;
+            top: 0.4em;
+            
+            }
+        .inputemail{
+
+            height: 30px;
+            border: none;
+            outline: none;
+            font-size: calc(12px +2vw);
+            padding-right:10px ;
+            font-family: "nunito";
+            color: black;
+
+        }
+        .inputdiv2{
+            width: 460px;
+     
+    border-bottom: #000 2px solid;
+   
+    padding: 5px;
+   
+   margin-left: 40px;
+   margin-top: 10px;
+  
+   
+        }
+        .inputdiv3{
+            width: 350px;
+     
+    border-bottom: #000 2px solid;
+   
+    padding: 5px;
+   display: flex;
+   flex-direction: row;
+   margin-left: 40px;
+   margin-top: 10px;
+  
+   
+        }
+        button{
+           width: 80px;
+           height: 30px;
+           background-color: black;
+           color: #fff;
+           border: none;
+            outline: none;
+          position: relative;
+          left: 12em;
+       cursor: pointer;
+          top: 1.2em;
+          font-size: 18px;
+          font-family: 'nunito';
+          justify-content: center;
+          align-items: center;
+
+        }
+        .move{
+            margin-top: -4em;
+            margin-left: -2em;
+        }
+      .names2{
+display: flex;
+flex-direction: row;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+align-items: center;
+      }
+      
+      .mylogo{
+display: flex;
+flex-direction: row;
+      }
+      .regular{
+          font-family: 'nunito';
+          font-size: 16px;
+          margin-left: 25em;
+
+          text-align: right;
+          line-height: 16px;
+          font-weight: 400;
+      }
+      .divdate{
+        
+       display: flex;
+       flex-direction: row;
+      justify-content: space-between;
+      }
+      .inputdate{
+        width: 200px;
+      border-bottom: #000 2px solid;
+       
+        padding-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       margin-left: 10px;
+       margin-top: 10px;
+
+      }
+      .inputtime{
+        width: 200px;
+     
+        border-bottom: #000 2px solid;
+      background: #fff;
+        padding-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       margin-right: 14px;
+       margin-top: 10px;
+
+      }
+    
+      
+      
+   
+
+      select{
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          appearance: none;
+          outline: none;
+          border: 0!important;
+          background: #fff;
+          width: 300px;
+          box-shadow: none;
+          font-size: 14px;
+          font-family: 'nunito';
+          color: grey;
+          cursor: pointer;
+          background-image:none ;
+          display: flex;
+          flex-direction: row;
+      }
+      .select::after{
+        content: '\25bc';
+     background-color: #000;
+       
+       
+    }
+      .inputdate::after {
+          content: '\25bc';
+          cursor: pointer;
+          pointer-events: none;
+          transition: 0.25 all ease;
+         
+      }
+
+      .inputtime::after {
+        content: '\25BC';
+        cursor: pointer;
+        pointer-events: none;
+        transition: 0.25 all ease;
+
+    }
+    .inputtime:hover::after {
+        color: grey;
+
+    }
+    .inputdate:hover::after {
+        color: grey;
+
+    }
+    .olubiul  li{
+    
+        margin: 0 15px;
+        font-size: 18px;
+        font-weight: 200;
+       font-family: 'cinzel';
+        cursor: pointer;
+    }
+    select::-ms-expand{
+      display: none;
+    }
+   .bigdiv2{
+       display: none;
+   }
+   .buyticket{
+       display: none;
+  } 
+ 

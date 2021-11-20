@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+#parent{
+    
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    
+        margin: 0 auto;
+        
+        
+       
+  
+    
+  
+}
+.section-1{
+    position: fixed;
+}
+
+
+
+.wordsalignleft{
+    text-align: left;
+    margin-top: 2em;
+    font-size: calc(16px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-left: 20em;
+}
+.wordsalignright{
+    text-align: center;
+    margin-top: 2em;
+    font-size: calc(16px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+
+ 
+    
+} #about-play{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.words{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    position: relative;
+    margin-top: -12em;
+    
+
+}
+
+
+/*about-play*/
+
+.gold{
+    width: 250px;
+}
+h1{
+  display: none;
+}
+.bottom2{
+  height: 101px;
+  width:100vw;
+  background-color: black;
+  margin-top: 40em;
+  margin-left: -53em;
+
+ 
+}
+
+.bottom3{
+  height: 101px;
+  width:100vw;
+  background-color: black;
+  margin-top: -21.2em;
+}
+.queen{
+  position: relative;
+  width: 250px;
+  margin-left: 51em;
+  top: 5.5em;
+ }
+.queen2{
+  position: relative;
+  width: 250px;
+  margin-left: 46em;
+  top: -17.9em;
+ }
+
+
+
+
+.olubi2{
+  margin-left: 34em;
+}
+
+
+.names{
+
+
+ 
+  justify-content: center;
+  margin-left: 31em;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+}
+    
+      .para3{
+          text-align: right;
+          margin-top:-9em ;
+          font-size: calc(18px +2vw);
+          line-height: 22px;
+          font-family: 'nunito';
+          font-weight: 200;
+          margin-left: 34em;
+      }
+     
+      
+      
+      .olubiul li:active {
+          color: grey
+      }
+      .moveolubi{
+          margin-top: 3em;
+          margin-left: -6em ;
+          width: 100vw;
+          height: 100vh;
+         
+         
+      }
+      .moveola{
+          
+          width: 100vw;
+          height: 100vh;
+          margin-left:40em;
+      }
+      
+
+.imagelilian{
+
+ display: flex;
+ flex-direction: row;
+ margin-left: auto;
+ margin-right: auto;
+ justify-content: center;
+ align-items: center;
+
+ 
+
+
+
+
+
+
+
+}
+.lilians{
+  
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+   
+      margin-right:  28em;
+      margin-top: 10em;
+  
+}
+
+.moveall{
+    
+    width: 100vw;
+margin: 0 auto;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.queenbottomgolds{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.queenosamade{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  top: 4.5em;
+  position: relative;
+  
+  
+}
+.bottomsamade{
+    height: 100px;
+    background-color: black;
+    width: 100vw;
+    margin-top: 1em;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.help{
+width: 100%;
+margin: auto;
+
+
+}
+.inlinelong{
+  width: 100vw;
+    height: 4px;
+    background-color: black;
+    margin-top: 7.07em;
+}
+.goldlogo{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8em;
+    }
+
+.wordgold{
+
+    text-align: center;
+    font-size: calc(18px +2vw);
+    line-height: 24px;
+    font-family: 'nunito';
+
+    margin-top: 1em;
+    font-weight: 200;
+}
+.moveall4{
+
+       justify-content: center;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-left: 35em;
+       margin-right: auto;
+
+}
+
+.moveall3{
+    margin-left:   -15em;
+    margin-top:2em;
+    width: 100vw;
+  
+   justify-content: center;
+}
+.crewli{
+    width:100%;
+    height: 10%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+ position: fixed;
+ margin-top: 3em;
+
+ margin-right: 10;
+ font-size: calc(10px + 1vw);
+ font-family: 'Cinzel';
+
+  }
+  .thelies{
+   font-size: 18px;
+    font-family: 'cinzel';
+    font-family: 400;
+  }
+  .theuls .thelies:active{
+    color: grey
+  }
+  .moveall2{
+      margin-top: 3em;
+      margin-left: 3em;
+
+  }
+  .olubiul li:active {
+    color: grey
+}
+.queenbottom2{
+    margin-top: 1.2em;
+    margin-left: 20.5em;
+    position: relative;
+  
+}
+
+.divolubi1{
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color:black ;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    margin:0 70px;
+    left: 6.5em;
+    top: -2em;
+    
+    }
+    
+    .divolubi2{
+        width: 8px;
+        height: 8px;
+        border-radius: 5px;
+        background-color:black ;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        z-index: 1;
+        margin:0 70px;
+        left: 23em;
+        top: -2.3em;
+        
+        }
+        .divolubi3{
+            width: 8px;
+            height: 8px;
+            border-radius: 5px;
+            background-color:black ;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            z-index: 1;
+            margin:0 70px;
+            left: 30em;
+            top: -2.9em;
+            
+            
+            }
+            .divolubi4{
+                width: 8px;
+                height: 8px;
+                border-radius: 5px;
+                background-color:black ;
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                z-index: 1;
+                margin:0 70px;
+                left: -32.1em;
+                top: 0.4em;
+                
+                }
+                .newul li{
+                    display: inline-block;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    font-size: calc(18px +2vw);
+                    font-weight: 200;
+                    font-family: 'Cinzel';
+                    cursor: pointer;
+                }
+               
